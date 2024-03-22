@@ -16,5 +16,20 @@ namespace WindowsFormsApp1.Quanly
         {
             InitializeComponent();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

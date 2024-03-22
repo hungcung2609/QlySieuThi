@@ -126,5 +126,26 @@
   <ItemGroup>
     <None Include="bin\Debug\Mart.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\them.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\them1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
