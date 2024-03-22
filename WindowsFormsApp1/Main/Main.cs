@@ -35,5 +35,12 @@ namespace WindowsFormsApp1.Main
             donHang.Show();
             this.Close();
         }
+
+        private void quảnLýHàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Quanly.SanPham sanPham = new Quanly.SanPham();
+            sanPham.Show();
+            this.Close();
+        }
     }
 }

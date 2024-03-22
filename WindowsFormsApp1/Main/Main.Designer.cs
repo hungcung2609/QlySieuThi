@@ -85,7 +85,8 @@
             // 
             this.quảnLýHàngHóaToolStripMenuItem.Name = "quảnLýHàngHóaToolStripMenuItem";
             this.quảnLýHàngHóaToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.quảnLýHàngHóaToolStripMenuItem.Text = "Quản Lý Hàng Hóa";
+            this.quảnLýHàngHóaToolStripMenuItem.Text = "Quản Lý Sản Phẩm";
+            this.quảnLýHàngHóaToolStripMenuItem.Click += new System.EventHandler(this.quảnLýHàngHóaToolStripMenuItem_Click);
             // 
             // quảnLýĐơnHàngToolStripMenuItem
             // 
