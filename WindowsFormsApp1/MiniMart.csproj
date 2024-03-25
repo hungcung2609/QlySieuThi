@@ -47,17 +47,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login\DangKy.cs">
+    <Compile Include="chuoiketnoi.cs" />
+    <Compile Include="GiaoDienBanHang\GDBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login\DangKy.Designer.cs">
-      <DependentUpon>DangKy.cs</DependentUpon>
+    <Compile Include="GiaoDienBanHang\GDBanHang.Designer.cs">
+      <DependentUpon>GDBanHang.cs</DependentUpon>
     </Compile>
     <Compile Include="Login\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
     </Compile>
     <Compile Include="Main\Main.cs">
       <SubType>Form</SubType>
@@ -67,6 +74,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Quanly\Quanlyncp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanly\Quanlyncp.designer.cs">
+      <DependentUpon>Quanlyncp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quanly\Quanlytk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanly\Quanlytk.designer.cs">
+      <DependentUpon>Quanlytk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quanly\SanPham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +103,9 @@
     <Compile Include="Quanly\DonHang.Designer.cs">
       <DependentUpon>DonHang.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GiaoDienBanHang\GDBanHang.resx">
+      <DependentUpon>GDBanHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +120,12 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Quanly\Quanlyncp.resx">
+      <DependentUpon>Quanlyncp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quanly\Quanlytk.resx">
+      <DependentUpon>Quanlytk.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quanly\SanPham.resx">
       <DependentUpon>SanPham.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,11 +136,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -145,10 +173,34 @@
     <None Include="Resources\fix.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\them.png" />
+    <None Include="Resources\them1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\them1.png" />
+    <None Include="Resources\minimart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banHang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanpham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dky.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

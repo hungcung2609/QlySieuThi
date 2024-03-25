@@ -19,7 +19,9 @@ namespace WindowsFormsApp1.Main
 
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            SieuThiMini.Quanlytk quanlytk = new SieuThiMini.Quanlytk();
+            quanlytk.Show();
+            this.Close();
         }
 
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,6 +43,34 @@ namespace WindowsFormsApp1.Main
             Quanly.SanPham sanPham = new Quanly.SanPham();
             sanPham.Show();
             this.Close();
+        }
+
+        private void quảnLýKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SieuThiMini.Quanlyncp quanlyncp =  new SieuThiMini.Quanlyncp();
+            quanlyncp.Show();
+            this.Close();
+        }
+
+        private void giaoDiệnBánHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GiaoDienBanHang.GDBanHang banHang = new GiaoDienBanHang.GDBanHang();
+            banHang.Show();
+        }
+
+        public Label GetLabel()
+        {
+            return label2;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
